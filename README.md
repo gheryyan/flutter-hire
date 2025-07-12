@@ -35,24 +35,20 @@ Data saat ini masih disimpan secara **lokal (SQLite)**, belum terhubung ke backe
 ---
 
 ## 🚀 Cara Menjalankan
+
 1 Clone repository ini:
-```bash
+
 git clone https://github.com/gheryyan/flutter-hire.git
+
 2 Masuk ke folder proyek:
 
-bash
-Copy
-Edit
 cd flutter-hire
+
 3 Install dependency:
 
-bash
-Copy
-Edit
 flutter pub get
+
 4 Jalankan aplikasi:
 
-bash
-Copy
-Edit
+
 flutter run
