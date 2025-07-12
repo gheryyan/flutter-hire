@@ -1,16 +1,58 @@
-# hire_app
+# Flutter Hire
 
-A new Flutter project.
+📱 Aplikasi manajemen lowongan kerja berbasis Flutter — simple CRUD untuk lowongan dan manajemen akun rekruter.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Deskripsi
+Proyek ini adalah aplikasi Flutter sederhana yang memungkinkan rekruter untuk:
+- Menambahkan, mengedit, dan menghapus lowongan kerja.
+- Melihat daftar lowongan kerja yang sudah dibuat.
+- Melihat dan mengedit profil rekruter.
+- Logout dari akun.
 
-A few resources to get you started if this is your first Flutter project:
+Data saat ini masih disimpan secara **lokal (SQLite)**, belum terhubung ke backend atau API.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔧 Tech Stack
+- **Flutter** (Framework untuk aplikasi mobile multiplatform)
+- **Dart** (Bahasa pemrograman)
+- **SQLite** (via sqflite untuk penyimpanan lokal)
+- **Shared Preferences** (untuk menyimpan data login)
+- State Management: bawaan Flutter (StatefulWidget)
+
+---
+
+## 📋 Fitur
+✅ CRUD (Create, Read, Update, Delete) Lowongan kerja  
+✅ Profil Rekruter & Logout  
+🚧 Rencana ke depan:
+- ✨ Mahasiswa bisa login dan melamar lowongan.
+- ✨ Notifikasi untuk lamaran masuk.
+- ✨ Integrasi API untuk sinkronisasi data.
+
+---
+
+## 🚀 Cara Menjalankan
+1 Clone repository ini:
+```bash
+git clone https://github.com/gheryyan/flutter-hire.git
+2 Masuk ke folder proyek:
+
+bash
+Copy
+Edit
+cd flutter-hire
+3 Install dependency:
+
+bash
+Copy
+Edit
+flutter pub get
+4 Jalankan aplikasi:
+
+bash
+Copy
+Edit
+flutter run
